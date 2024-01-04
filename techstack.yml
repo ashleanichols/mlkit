@@ -1,9 +1,199 @@
 repo_name: ashleanichols/mlkit
 report_id: c1cd706b4f650bd2284bba377f3cf9ae
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:00:39+00:00'
+timestamp: '2024-01-04T15:07:48+00:00'
 requested_by: a-googler
 provider: github
 branch: master
-detected_tools_count: 0
-tools: []
+detected_tools_count: 16
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '30.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/android/vision-quickstart/app/build.gradle
+  detection_source: android/vision-quickstart/app/build.gradle
+  last_updated_by: Google ML Kit
+  last_updated_on: 2021-06-17 22:11:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/android/android-snippets/app/build.gradle
+  detection_source: android/android-snippets/app/build.gradle
+  last_updated_by: Caren Chang
+  last_updated_on: 2020-06-03 05:16:44.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/android/material-showcase/.travis.yml
+  detection_source: android/material-showcase/.travis.yml
+  last_updated_by: Caren Chang
+  last_updated_on: 2020-06-03 05:16:44.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '11.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/android/vision-quickstart/app/build.gradle
+  detection_source: android/vision-quickstart/app/build.gradle
+  last_updated_by: Google ML Kit
+  last_updated_on: 2021-06-17 22:11:35.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/ios/showcase/vision-showcase/Podfile
+  detection_source: ios/showcase/vision-showcase/Podfile
+  last_updated_by: Caren Chang
+  last_updated_on: 2020-06-03 05:16:44.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashleanichols/mlkit
+  detection_source: Repo Metadata
+- name: SwiftLint
+  description: A tool to enforce Swift style and conventions
+  website_url: https://github.com/realm/SwiftLint
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8243/XzDXMlHD_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/ios/quickstarts/smartreply/Podfile
+  detection_source: ios/quickstarts/smartreply/Podfile
+  last_updated_by: Caren Chang
+  last_updated_on: 2020-06-03 05:16:44.000000000 Z
+- name: PINRemoteImage
+  description: A thread safe, performant, feature rich image fetcher
+  package_url: https://cocoapods.org/pods/PINRemoteImage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/ios/showcase/vision-showcase/Podfile
+  detection_source: ios/showcase/vision-showcase/Podfile
+  last_updated_by: Caren Chang
+  last_updated_on: 2020-06-03 05:16:44.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ashleanichols/mlkit/blob/master/android/android-snippets/app/build.gradle
+  detection_source: android/android-snippets/app/build.gradle
+  last_updated_by: Yi Zhou
+  last_updated_on: 2020-08-25 17:42:54.000000000 Z
